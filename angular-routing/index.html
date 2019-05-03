@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="githubViewer">
+
+  <head>
+    <script data-require="angular.js@*" data-semver="4.0.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script data-require="angular.js@*" data-semver="4.0.0" src="script.ts"></script>
+    <script data-require="angular.js@*" data-semver="4.0.0" src="system.config.js"></script>
+    <script data-require="angular.js@*" data-semver="4.0.0" src="tsconfig.json"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <script src="MainController.js"></script>
+    <script src="UserController.js"></script>
+    <script src="RepoController.js"></script>
+    <script src="github.js"></script>
+  </head>
+  
+  <body>
+    <h1>Github Viewer</h1>
+    <div ng-view></div>
+  </body>
+
+</html>
